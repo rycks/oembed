@@ -812,3 +812,13 @@
       example_urls:
         - 'http://repubhub.icopyright.net/oembed.act?url=http%3A%2F%2Frepubhub.icopyright.net%2FfreePost.act%3Ftag%3D3.11150%3Ficx_id%3D918814&format=json'
       discovery: true
+- provider_name: AbulEdu-Raconte-Moi
+  provider_url: 'http://raconte-moi.abuledu.org/w/'
+  endpoints:
+    - schemes:
+        - 'http://raconte-moi.abuledu.org/w/*'
+      url: 'http://raconte-moi.abuledu.org/w/?oembed'
+      example_urls:
+        - 'http://raconte-moi.abuledu.org/w/?oembed=true&format=json&url=http%3A%2F%2Fraconte-moi.abuledu.org%2Fw%2F9118-chloe_a_la_plage-2'
+        - 'http://raconte-moi.abuledu.org/w/?oembed=true&format=xml&url=http%3A%2F%2Fraconte-moi.abuledu.org%2Fw%2F9118-chloe_a_la_plage-2'
+      discovery: true
